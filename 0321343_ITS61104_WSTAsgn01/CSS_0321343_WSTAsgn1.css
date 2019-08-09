@@ -1,0 +1,39 @@
+@font-face {
+	font-family: BrianneTod;
+	src: url("font/BrianneTod.ttf");
+}
+
+@font-face {
+	font-family: House of Terror;
+	src: url("font/HouseofTerror-Regular.ttf");
+}
+
+body {
+	background-color: #ffdf80;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	display: block;
+	font-family: BrianneTod;
+	font-size: 14px;
+	text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111111;
+}
+
+.active {
+	background-color: #996633;
+	color: white;
+}
